@@ -15,35 +15,54 @@
 <body>
   <div class="site-container">
     <header class="header">
-  <div class="container">
-    <div class="header__inner">
-      <img src="img/logo.png" alt="">
-      <ul class="menu">
-        <li class="menu__link">
-          <a href="#">Home</a>
-        </li>
-        <li class="menu__link">
-          <a href="#">Service</a>
-        </li>
-        <li class="menu__link">
-          <a href="#"> About us</a>
-        </li>
-        <li class="menu__link">
-          <a href="#">Pricing Table</a>
-        </li>
-        <li class="menu__link">
-          <a href="#">How it work</a>
-        </li>
-        <li class="menu__link">
-          <a href="#">Happy Clients</a>
-        </li>
-        <li class="menu__link">
-          <a href="#">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</header>
+      <div class="container">
+        <div class="header__inner">
+          <img src="img/logo.png" alt="">
+          <ul class="menu">
+            <li class="menu__link">
+              <a href="#">Home</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">Service</a>
+            </li>
+            <li class="menu__link">
+              <a href="#"> About us</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">Pricing Table</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">How it work</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">Happy Clients</a>
+            </li>
+            <li class="menu__link">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+
+          <nav class="mobile-menu">
+            <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+            <label for="checkbox" class="mobile-menu__btn">
+              <div class="mobile-menu__icon"></div>
+            </label>
+            <div class="mobile-menu__container">
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Home</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Service</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">About us</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Pricing Table</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">How it work</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Happy Clients</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contacts Us</a></li>
+              </ul>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+    </header>
 
 
     <section class="intro">
@@ -57,7 +76,7 @@
             <form class="intro__form">
               <input class="intro__input" type="text" placeholder="Full Name">
               <input class="intro__input" type="email" placeholder="Email Addres">
-              <input class="intro__input" type="tel" inputmode="text" placeholder="Phone Number">
+              <input class="intro__input" type="tel" name="tel" inputmode="text" placeholder="Phone Number">
               <button>REQUEST A QUOTE</button>
             </form>
 
@@ -181,10 +200,10 @@
 
 
     <footer class="footer">
-	<div class="container"></div>
-</footer>
+      <div class="container"></div>
+    </footer>
 
-    
+
   </div>
 
 
