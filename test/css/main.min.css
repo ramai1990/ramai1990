@@ -787,7 +787,7 @@ input {
   flex-grow: 1;
   justify-content: flex-end;
 }
-.menu__link a {
+/* .menu__link a {
   color: #868686;
   font-family: "Lato";
   font-weight: 400;
@@ -802,6 +802,52 @@ input {
 .menu__link a:hover {
   color: #fff;
   background-color: #ffbb42;
+} */
+.menu__link a {
+  display: inline-block;
+  position: relative;
+  color: #868686;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-bottom: 2px solid #ffbb42;
+  border-radius: 4px 4px 0 0 ;
+  overflow: hidden;
+}
+.menu__link  + .menu__link {
+  margin-left: 10px;
+}
+
+.menu__link a:hover {
+  color: #efefef;
+}
+
+.menu__link a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #333333;
+  z-index: -1;
+  transition: all 0.2s cubic-bezier(0.000, 0.590, 1.000, 0.260);
+}
+
+.menu__link a:hover:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #ffbb42;
+  z-index: -1;
 }
 .wrapper {
   height: 589px;
