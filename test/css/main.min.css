@@ -1069,7 +1069,7 @@ input {
 
 .mobile-menu {
   position: static;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: flex-end;
   padding: 0 16px;
@@ -1454,6 +1454,7 @@ input {
     display: none;
   }
   .mobile-menu {
+    display: flex;
     position: fixed;
     opacity: 1;
   }
