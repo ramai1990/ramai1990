@@ -6,7 +6,7 @@
 
 [RESTAURANT](https://ramai1990.github.io/ramai1990/restaurant)
 
-[BUISNESS](https://ramai1990.github.io/ramai1990/test)
+[BUISNESS](https://ramai1990.github.io/ramai1990/buisness)
 
 [AXIT](https://ramai1990.github.io/ramai1990/axit)
 
